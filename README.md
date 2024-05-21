@@ -10,3 +10,5 @@ browser-sync
 <https://vyyo.github.io/GoodMorning/>
 
 
+### Project Description
+Good Morning is a short interactive story about recurring episodes of physical dissociation.

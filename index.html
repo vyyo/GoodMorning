@@ -18,7 +18,7 @@
         background-color: #FDD974;
         margin: 0;
         padding: 0;
-        background-image: url('img/bg-desert.jpg');
+        background-image: url('img/background.png');
         background-size: cover;
         background-position: center;
         background-attachment: fixed
@@ -113,6 +113,14 @@
   <script src="classes/HomerParser.js" defer></script>
   <script src="javascript/homer.js" defer></script>
 
+  <script>
+    function playAudio(filename) {
+      var audio = document.getElementById('audio');
+      audio.src = 'audio/' + filename;
+      audio.play();
+    }
+  </script>
+
 </head>
 <body>
 <!-- <header id="header">
@@ -146,7 +154,7 @@
   </div>
 
 </div>
-<audio controls autoplay>
+<audio id="audio">
   <source src="audio/homemusic.wav" type="audio/wav"> 
   WAV NOT SUPPORTED
 </audio>
