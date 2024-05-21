@@ -293,12 +293,12 @@ window.homerDrawer = {
 			console.debug(ga_event);
 		}
 
-		//SEND PLAY_AUDIO
+		/*//SEND PLAY_AUDIO
 		const play_audio = homerDrawer.getNodeMetaDataByKey(node, "PLAY_AUDIO");
 		if (Music !== null) {
 			src = "file:///C:/Users/UTENTE/Desktop/Homer/GoodMorning/audio/Home.wav";
 			src.play();
-		}
+		}*/
 		
 		//SHOW IMAGE
 		homerDrawer.placeholders.node_image.empty();
