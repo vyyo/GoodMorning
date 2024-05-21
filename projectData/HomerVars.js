@@ -1,6 +1,6 @@
 /**
 * javascript variables for the Homer project:
-* Sabbie & Stregoni 
+* Good Morning
 * Homer - The Story Flow Editor.
 * Copyright (c)2021-2024. Open Lab s.r.l - Florence, Italy
 * Developer: Pupunzi (Matteo Bicocchi)
@@ -9,39 +9,20 @@
 
 class HomerVars {
 
-      static percentuale_4 = 0;
-      static percentuale_3 = 0;
-      static percentuale_2 = 0;
-      static percentuale_1 = 0;
-      static percentuale = 0;
-      static total_players = 0;
-      static end_4 = 0;
-      static end_3 = 0;
-      static end_2 = 0;
-      static end_1 = 0;
-      static character = "";
+      static BodyParts = 0;
+      static Cohesion = 0;
 
 };
 
 class HomerActors {
 
-      static CITTADINI = "Cittadini";
-      static CSABA_MAGA = "Csaba Maga";
-      static CONSIGLIERE_REVAN = "Consigliere Revan";
-      static ENCICLOPEDIA = "ENCICLOPEDIA";
-      static NARRATORE = "Narratore";
+      static BODY = "Body";
+      static YOU = "You";
+      static SOMEONE = "Someone";
 
 }
 
 class HomerMeta {
-      static CSS_CLASS = {
-          CLASS_4 : 'CLASS_4',
-          CLASS_3 : 'CLASS_3',
-          CLASS_2 : 'CLASS_2',
-          CLASS_1 : 'CLASS_1',
-      };
-      static GA_EVENT = {
-      };
       static FLOW_STATE = {
           IDEA : 'IDEA',
           NOTES : 'NOTES',
@@ -94,6 +75,8 @@ class HomerMeta {
           BACK : 'BACK',
           PRACTICAL : 'PRACTICAL',
           HARD : 'HARD',
+          SOFT : 'SOFT',
+          CHIAROSCURO : 'CHIAROSCURO',
       };
 
 }
@@ -105,8 +88,6 @@ class HomerLabels {
 
 
 class HomerFlowSlugs {
-      static INIZIO = "INIZIO";
-      static STORIA = "STORIA";
-      static FINALI = "FINALI";
+      static GOOD_MORNING = "Good Morning";
  }
 
