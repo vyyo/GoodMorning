@@ -55,7 +55,7 @@ window.homerDrawer = {
 		homerDrawer.placeholders.title.html(Homer._project._name);
 		
 		
-		homerDrawer.selectFlow(Homer._project._flows[0]._id);
+		homerDrawer.selectFlow(Homer._project._flows[0]._id);z
 		
 	},
 	
@@ -291,6 +291,13 @@ window.homerDrawer = {
 		if (ga_event !== null) {
 			gtag('event', ga_event);
 			console.debug(ga_event);
+		}
+
+		//SEND PLAY_AUDIO
+		const play_audio = homerDrawer.getNodeMetaDataByKey(node, "PLAY_AUDIO");
+		if (Music !== null) {
+			src = "file:///C:/Users/UTENTE/Desktop/Homer/GoodMorning/audio/Home.wav";
+			src.play();
 		}
 		
 		//SHOW IMAGE
