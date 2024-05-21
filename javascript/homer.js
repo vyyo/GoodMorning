@@ -346,7 +346,7 @@ window.homerDrawer = {
 					homerDrawer.placeholders.actor_name_placeholder.html(actorName);
 					homerDrawer.placeholders.text_placeholder.html(Homer.getParsedText());
 					
-					let next = $("<button>").addClass("btn btn-primary choice-button").html("AVANTI");
+					let next = $("<button>").addClass("btn btn-primary choice-button").html("      ");
 					
 					next.on("click", () => {
 						homerDrawer.drawNext();
